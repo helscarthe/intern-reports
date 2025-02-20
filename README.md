@@ -24,8 +24,8 @@ Actual time of completion and order of completion of the submodules/labs may dif
 - Linux
   - File and directory management :heavy_check_mark:
   - Software, system, and network management :heavy_check_mark:
-  - Shell scripts/Bash scripting :arrow_backward:
-  - Ansible
+  - Shell scripts/Bash scripting :heavy_check_mark:
+  - Ansible :arrow_backward:
   - Terraform
 - AWS
   - IAM :arrow_backward:

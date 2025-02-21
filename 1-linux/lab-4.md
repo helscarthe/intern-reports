@@ -4,18 +4,23 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 
 ### Preparing the instances
 
-- Create 3 EC2 instances, one for each node\
+- Create 3 EC2 instances, one for each node
+
 <img src=images/lab-4/image-1.png width=500>
-- Configure the shared Security Group of the managed nodes to allow SSH and HTTP inbound connections\
+
+- Configure the shared Security Group of the managed nodes to allow SSH and HTTP inbound connections
+
 <img src=images/lab-4/image-2.png width=500>
 
 ### Ansible configuration
 
-- Final working Ansible directory:\
+- Final working Ansible directory:
+
 <img src=images/lab-4/image-3.png width=400>
+
 - First, add managed nodes hostnames/IP addresses to `inventory`
 
-```
+```ini
 ; these are only sample IPs
 [server1]
 13.229.133.54 ansible_ssh_private_key_file=ansibleKeyPair.pem
@@ -23,10 +28,14 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 [server2]
 18.139.163.120 ansible_ssh_private_key_file=ansibleKeyPair.pem
 ```
-- Perform a ping test to ensure that the managed nodes are reachable from the control node\
+- Perform a ping test to ensure that the managed nodes are reachable from the control node
+
 <img src=images/lab-4/image-4.png width=600>
-- Configure the roles. In this configuration, 3 roles will be used - one for common configuration of httpd on all managed nodes, and one for specific tasks on each node.\
+
+- Configure the roles. In this configuration, 3 roles will be used - one for common configuration of httpd on all managed nodes, and one for specific tasks on each node.
+
 <img src=images/lab-4/image-5.png width=400>
+
 - Configure the common tasks in `httpd/tasks/main.yml`
 
 ```yaml
@@ -75,10 +84,16 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
   roles:
     - server2
 ```
-- First run\
+- First run
+
 <img src=images/lab-4/image-6.png width=600>
-- Testing the webpages\
+
+- Testing the webpages
+
 <img src=images/lab-4/image-7.png width=600>
+
 <img src=images/lab-4/image-8.png width=600>
-- Subsequent runs\
+
+- Subsequent runs
+
 <img src=images/lab-4/image-9.png width=600>

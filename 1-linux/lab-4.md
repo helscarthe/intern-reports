@@ -14,7 +14,8 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 - Final working Ansible directory:\
 <img src=images/lab-4/image-3.png width=400>
 - First, add managed nodes hostnames/IP addresses to `inventory`
-```ini
+
+```
 ; these are only sample IPs
 [server1]
 13.229.133.54 ansible_ssh_private_key_file=ansibleKeyPair.pem

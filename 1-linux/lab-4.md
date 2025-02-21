@@ -28,6 +28,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 [server2]
 18.139.163.120 ansible_ssh_private_key_file=ansibleKeyPair.pem
 ```
+
 - Perform a ping test to ensure that the managed nodes are reachable from the control node
 
 <img src=images/lab-4/image-4.png width=600>
@@ -48,6 +49,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 - name: httpd service state
   service: name=httpd state=started enabled=yes
 ```
+
 - Configure the node-specific tasks in `[node-name]/tasks/main.yml`, in this case, copying the sample website from the control node
 
 ```yaml
@@ -60,6 +62,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
     src: roles/server1/files/index.html
     dest: /var/www/html/index.html
 ```
+
 - Configuring `playbook.yml`
 
 ```yaml
@@ -84,6 +87,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
   roles:
     - server2
 ```
+
 - First run
 
 <img src=images/lab-4/image-6.png width=600>

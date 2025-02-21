@@ -1,6 +1,6 @@
 # Managing software, system and network
 
-### Using `apt`, `apt-get`, `dpkg`, … manage package update, install, remove software (nginx, apache2, sql, …). 
+### Using `apt`, `apt-get`, `dpkg`, … manage package update, install, remove software (nginx, apache2, sql, …)
 
 Amazon Linux uses `yum`/`dnf`, thus this section will focus on that.
 
@@ -30,7 +30,7 @@ Amazon Linux uses `yum`/`dnf`, thus this section will focus on that.
 
 <img src=images/lab-2/image-6.png width=500>
 
-### Managing system (task, service, …) use tool: `ps`, `top`, `htop`, `kill`, `grep` process.
+### Managing system (task, service, …) use tool: `ps`, `top`, `htop`, `kill`, `grep` process
 
 - Listing all running processes within current user's scope:
 
@@ -48,7 +48,7 @@ Amazon Linux uses `yum`/`dnf`, thus this section will focus on that.
 
 <img src=images/lab-2/image-10.png width=500>
 
-### Managing network (IP, port, display network, domain, …) use tool: `netstat`, ...
+### Managing network (IP, port, display network, domain, …) use tool: `netstat`, …
 
 - Using `netstat` shows all internet, UNIX domain (internal) and Bluetooth connections. Focusing on the internet connections, there's the current ssh connection used to connect to this EC2 instance:
 

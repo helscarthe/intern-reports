@@ -2,7 +2,7 @@
 
 Linux environment set up on an EC2 instance, using Amazon Linux 2023 AMI.
 
-### Create, copy, move files and directories, use tree, locate command.
+### Create, copy, move files and directories, use tree, locate command
 
 - Making test directories
 
@@ -20,13 +20,13 @@ Linux environment set up on an EC2 instance, using Amazon Linux 2023 AMI.
 
 <img src=images/lab-1/image-4.png width=500>
 
-### Show the full path name of your home directory.
+### Show the full path name of your home directory
 
 - Print the working directory (which currently is home, marked by ~) or alternatively, print the environment variable `$HOME`
 
 <img src=images/lab-1/image-5.png width=500>
 
-### Change permission file/directory (read, write, execute).
+### Change permission file/directory (read, write, execute)
 
 - Checking the permission of dir1, removing the owner's execute permission, so I can't `cd` into it. Adding the permission back lets me execute commands onto the directory again.
 
@@ -53,7 +53,7 @@ Linux environment set up on an EC2 instance, using Amazon Linux 2023 AMI.
   - `-x` means extract from archive
   - `-C` changes the directory, allowing tar to extract to directories other than current working directory.
 
-### Edit file by `vim`, `nano`.
+### Edit file by `vim`, `nano`
 
 - Only results will be shown, since demonstration of use for text editors are best shown directly or over video
 

@@ -19,6 +19,7 @@ then
   echo X is equal to Y
 fi
 ```
+
 <img src=images/lab-3/image-1.png width=300>
 
 ### Assignment 2: Calculate the math expression
@@ -32,6 +33,7 @@ res=$(echo "scale=3; $expression" | bc)
 
 echo $res
 ```
+
 <img src=images/lab-3/image-2.png width=300>
 
 ### Assignment 3: Unique number(s)
@@ -44,4 +46,5 @@ read list
 
 echo $list | tr ' ' '\n' | sort | uniq -u
 ```
+
 <img src=images/lab-3/image-3.png width=300>

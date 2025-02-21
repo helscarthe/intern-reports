@@ -28,8 +28,8 @@ Actual time of completion and order of completion of the submodules/labs may dif
   - [Ansible](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-4.md) :heavy_check_mark:
   - [Terraform](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-5.md) :heavy_check_mark:
 - [AWS](https://github.com/helscarthe/intern-reports/blob/main/2-aws)
-  - IAM :arrow_backward:
-  - Setup a Terraform template and VPC
+  - [IAM](https://github.com/helscarthe/intern-reports/blob/main/2-aws/lab-1.md) :heavy_check_mark:
+  - Setup a Terraform template and VPC :arrow_backward:
   - Terraform S3 bucket to host static web app
   - Full infrastructure with auto scaling group and load balancer
 - GCP

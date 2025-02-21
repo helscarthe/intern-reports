@@ -10,8 +10,8 @@ The expected timeline would then be:
 
 | Course | Expected time | Completed |
 |-|-|-|
-| Linux | Week 1 | :heavy_check_mark: |
-| AWS | Week 2 | :x: |
+| [Linux](https://github.com/helscarthe/intern-reports/blob/main/1-linux) | Week 1 | :heavy_check_mark: |
+| [AWS](https://github.com/helscarthe/intern-reports/blob/main/2-aws) | Week 2 | :x: |
 | GCP | Week 3 | :x: |
 | Docker/Kubernetes | Week 4 | :x: |
 | Azure | Week 5 | :x: |
@@ -21,13 +21,13 @@ Actual time of completion and order of completion of the submodules/labs may dif
 
 ### Progress details
 
-- Linux :heavy_check_mark:
-  - File and directory management :heavy_check_mark:
-  - Software, system, and network management :heavy_check_mark:
-  - Shell scripts/Bash scripting :heavy_check_mark:
-  - Ansible :heavy_check_mark:
-  - Terraform :heavy_check_mark:
-- AWS
+- [Linux](https://github.com/helscarthe/intern-reports/blob/main/1-linux) :heavy_check_mark:
+  - [File and directory management](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-1.md) :heavy_check_mark:
+  - [Software, system, and network management](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-2.md) :heavy_check_mark:
+  - [Shell scripts/Bash scripting](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-3.md) :heavy_check_mark:
+  - [Ansible](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-4.md) :heavy_check_mark:
+  - [Terraform](https://github.com/helscarthe/intern-reports/blob/main/1-linux/lab-5.md) :heavy_check_mark:
+- [AWS](https://github.com/helscarthe/intern-reports/blob/main/2-aws)
   - IAM :arrow_backward:
   - Setup a Terraform template and VPC
   - Terraform S3 bucket to host static web app

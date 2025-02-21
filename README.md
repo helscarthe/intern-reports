@@ -9,8 +9,8 @@ In order to fast track progress, I aim to complete the 6 courses within 6 weeks,
 The expected timeline would then be:
 
 | Course | Expected time | Completed |
-|---|---|---|
-| Linux | Week 1 | :x: |
+|-|-|-|
+| Linux | Week 1 | :heavy_check_mark: |
 | AWS | Week 2 | :x: |
 | GCP | Week 3 | :x: |
 | Docker/Kubernetes | Week 4 | :x: |
@@ -21,12 +21,12 @@ Actual time of completion and order of completion of the submodules/labs may dif
 
 ### Progress details
 
-- Linux
+- Linux :heavy_check_mark:
   - File and directory management :heavy_check_mark:
   - Software, system, and network management :heavy_check_mark:
   - Shell scripts/Bash scripting :heavy_check_mark:
   - Ansible :heavy_check_mark:
-  - Terraform :arrow_backward:
+  - Terraform :heavy_check_mark:
 - AWS
   - IAM :arrow_backward:
   - Setup a Terraform template and VPC

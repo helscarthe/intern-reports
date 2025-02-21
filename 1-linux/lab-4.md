@@ -28,6 +28,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
 - Configure the roles. In this configuration, 3 roles will be used - one for common configuration of httpd on all managed nodes, and one for specific tasks on each node.\
 <img src=images/lab-4/image-5.png width=400>
 - Configure the common tasks in `httpd/tasks/main.yml`
+
 ```yaml
 ---
 # These tasks install the httpd package.
@@ -39,6 +40,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
   service: name=httpd state=started enabled=yes
 ```
 - Configure the node-specific tasks in `[node-name]/tasks/main.yml`, in this case, copying the sample website from the control node
+
 ```yaml
 ---
 # This task copies the prepare html code into
@@ -50,6 +52,7 @@ The remote server(s) of choice will be provided using EC2 instances on a persona
     dest: /var/www/html/index.html
 ```
 - Configuring `playbook.yml`
+
 ```yaml
 ---
 # This playbook executes all configured tasks.

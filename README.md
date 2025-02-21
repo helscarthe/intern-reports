@@ -25,8 +25,8 @@ Actual time of completion and order of completion of the submodules/labs may dif
   - File and directory management :heavy_check_mark:
   - Software, system, and network management :heavy_check_mark:
   - Shell scripts/Bash scripting :heavy_check_mark:
-  - Ansible :arrow_backward:
-  - Terraform
+  - Ansible :heavy_check_mark:
+  - Terraform :arrow_backward:
 - AWS
   - IAM :arrow_backward:
   - Setup a Terraform template and VPC

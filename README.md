@@ -30,7 +30,7 @@ Actual time of completion and order of completion of the submodules/labs may dif
 - [AWS](https://github.com/helscarthe/intern-reports/blob/main/2-aws)
   - [IAM](https://github.com/helscarthe/intern-reports/blob/main/2-aws/lab-1.md) :heavy_check_mark:
   - Setup a Terraform template and VPC :arrow_backward:
-  - Terraform S3 bucket to host static web app
+  - [Terraform S3 bucket to host static web app](https://github.com/helscarthe/intern-reports/blob/main/2-aws/lab-3.md) :heavy_check_mark:
   - Full infrastructure with auto scaling group and load balancer
 - GCP
   - Compute Engine and IAM
